@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <title>Programové a datové soubory</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/style.css" rel="stylesheet" />
+  <div class="topnav">
+    <a class="active" href="../uvod/index.html">ÚVOD</a>
+    <a href="../01/index.html">PROGRAMOVÉ A DATOVÉ SOUBORY</a>
+    <a href="../02/index.html">OPERAČNÍ SYSTÉMY</a>
+    <a href="../03/index.html">SOFTWAROVÉ LICENCE</a>
+    <a href="../04/index.html">OVLADAČE, FIRMWARE A UTILITY</a>
+    <a href="../05/index.html">APLIKAČNÍ SOFTWARE</a>
+  </div>
+
+<body id="bg">
+  <header>
+    <h1>&#128151;Programové a datové soubory&#128151;</h1>
+  </header>
+  <main>
+    <h2>Soubory a adresáře</h2>
+    <p><b>Soubor</b> (<i>file</i>) je množina souvisejících dat uložených na diskové jednotce. Název souboru je obvykle
+      tvořen jménem (ve Windows až 254 znaků) a příponou, která naznačuje typ souboru. K dalším vlastnostem souboru
+      patří jeho velikost, autor (vlastník), datum vytvoření, datum změny, atributy, přístupová práva apod.</p>
+    <p>K přehlednější práci se soubory slouží systém adresářů či složek (directories, folders). Adresáře tvoří na disku
+      typicky hierarchickou strukturu (tree - strom); základem je tzv. kořenový adresář (<em>root</em>) označený
+      symbolem „/“
+      (Unix, Linux), nebo „\“ (Windows). Každý adresář může obsahovat soubory i podadresáře (<em>subdirectories</em>).
+    </p>
+    <h2>Adresářová cesta</h2>
+    <p>Cesta (path) vyjadřuje umístění souboru vždy směrem od nejvyššího adresáře: C:\XAMPP\mysql\bin\mysql.exe. Pro
+      operace se soubory využíváme někdy zástupné znaky (wildcards):</p>
+    <ul>
+      <li>symbol * nahrazuje v názvu libovolný počet znaků (např. *.*);</li>
+      <li>symbol ? nahrazuje jeden libovolný znak (např. s?s.txt).</li>
+    </ul>
+    <h2>Programové soubory</h2>
+    <p><strong>Programové soubory</strong> obsahují instrukce, podle nichž procesor ve
+      spolupráci s dalšími hardwarovými komponentami plní konkrétní úlohy.
+      Mohou být uloženy v již zkompilované binární podobě (nejčastěji ve
+      <strong>strojovém kódu</strong> pro danou platformu), nebo ve <strong>zdrojovém kódu</strong>, obsahujícím příkazy
+      určitého programovacího jazyka. Mezi programové
+      soubory můžeme zařadit také <strong>skripty</strong>, soubory instrukcí v textové podobě, které ke svému spuštění
+      vyžadují speciální program - <strong>interpret</strong>
+    </p>
+    <p>Větší programy jsou tvořeny <strong>programovými knihovnami</strong> (<em>runtime libraries</em>),
+      speciálními soubory s připravenými funkcemi, které programy využívají pro
+      svůj běh. Ve Windows to jsou např. soubory DRV a SYS (<em>obsahující zejména ovladače čili drivery, ale i
+        systémové funkce</em>), nebo také <strong>DLL</strong> (<em>dynamic linking library - dynamicky linkované
+        knihovny</em>), které mohou být podle potřeby za
+      běhu (dynamicky) připojeny k jednomu i více programům. </p>
+    <p>Některé soubory s tzv. <strong>spustitelnou příponou</strong> (např. .exe a .com ve Windows, .sh v Linuxu) slouží
+      ke spuštění programu - aktivaci procesu v rámci
+      operačního systému. Za <strong>rezidentní programy</strong> (služby, démony) označujeme
+      ty procesy, které jsou spuštěny automaticky po iniciaci operačního systému
+      (např. antivirové programy).</p>
+    <h2>Datové soubory</h2>
+    <p><strong>Datové soubory</strong> obsahují data různého charakteru (číselné, textové,
+      grafické, zvukové údaje). K jejich zpracování se používají konkrétní
+      programy, a proto jsou často přípony těchto datových souborů asociovány (propojeny) s určitou aplikací (<em>např.
+        DOCX s programem MS Word, nebo XLSX s programem MS Excel</em>). </p>
+  </main>
+  <footer>
+    <hr>
+    <p>&copy; 2022 - Václav Stoklasa - IT1&reg; &#x263c;</p>
+  </footer>
+</body>
+
+
+</html>

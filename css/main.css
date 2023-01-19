@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a:hover {
+  background-color:  rgb(136, 94, 130);
+}
+
+
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(175, 131, 175);
+  }
+  
+.flex-container > div {
+    background-color: #534848;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    min-width: 28.3%;
+  }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgb(81, 81, 175);
+  }
+  .container {
+    width: 100%;
+  }
+  .flex-container{
+    min-width: 80%;
+  }
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
